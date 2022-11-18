@@ -1,0 +1,53 @@
+--- ./docs/varnish-config.md	original
++++ ./docs/varnish-config.md	fixed
+@@ -86 +86 @@
+-More specificially:
++More specifically:
+--- ./docs/COUCHDB.md	original
++++ ./docs/COUCHDB.md	fixed
+@@ -18 +18 @@
+-Because npm cares deeply about backwards compatibility, as the npm regsitry
++Because npm cares deeply about backwards compatibility, as the npm registry
+--- ./docs/follower.md	original
++++ ./docs/follower.md	fixed
+@@ -60 +60 @@
+-  database so that we can optionally end our progarm when it has received
++  database so that we can optionally end our program when it has received
+@@ -324 +324 @@
+-Firstly, remember the `id`/`_id` key we recieve from our changes stream? We had
++Firstly, remember the `id`/`_id` key we receive from our changes stream? We had
+@@ -385 +385 @@
+-foward with our app as it is currently written, however you'll likely have
++forward with our app as it is currently written, however you'll likely have
+--- ./typo-report/typos.txt	original
++++ ./typo-report/typos.txt	fixed
+@@ -1 +1 @@
+-error: `specificially` should be `specifically`
++error: `specifically` should be `specifically`
+@@ -4 +4 @@
+-86 | More specificially:
++86 | More specifically:
+@@ -7 +7 @@
+-error: `progarm` should be `program`
++error: `program` should be `program`
+@@ -10 +10 @@
+-60 |   database so that we can optionally end our progarm when it has received
++60 |   database so that we can optionally end our program when it has received
+@@ -13 +13 @@
+-error: `regsitry` should be `registry`
++error: `registry` should be `registry`
+@@ -16 +16 @@
+-18 | Because npm cares deeply about backwards compatibility, as the npm regsitry
++18 | Because npm cares deeply about backwards compatibility, as the npm registry
+@@ -19 +19 @@
+-error: `recieve` should be `receive`
++error: `receive` should be `receive`
+@@ -22 +22 @@
+-324 | Firstly, remember the `id`/`_id` key we recieve from our changes stream? We had
++324 | Firstly, remember the `id`/`_id` key we receive from our changes stream? We had
+@@ -25 +25 @@
+-error: `foward` should be `forward`
++error: `forward` should be `forward`
+@@ -28 +28 @@
+-385 | foward with our app as it is currently written, however you'll likely have
++385 | forward with our app as it is currently written, however you'll likely have
