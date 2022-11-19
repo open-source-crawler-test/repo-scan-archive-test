@@ -2,7 +2,7 @@
 
 **Repository:** [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
 
-**Analysis Date:** Fri Nov 18 18:27:26 UTC 2022
+**Analysis Date:** Sat Nov 19 04:28:27 UTC 2022
 
 **Report size:** 558M	.
 
