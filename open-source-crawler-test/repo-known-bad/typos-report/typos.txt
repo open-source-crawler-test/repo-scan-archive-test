@@ -1,0 +1,18 @@
+error: `Accesible` should be `Accessible`
+  --> ./README.md:4:1
+  |
+4 | Accesible this cow canot jupm over the moon becuase they have typos! Foward should trigger spellcheck.
+  | ^^^^^^^^^
+  |
+error: `canot` should be `cannot`
+  --> ./README.md:4:20
+  |
+4 | Accesible this cow canot jupm over the moon becuase they have typos! Foward should trigger spellcheck.
+  |                    ^^^^^
+  |
+error: `Foward` should be `Forward`
+  --> ./README.md:4:70
+  |
+4 | Accesible this cow canot jupm over the moon becuase they have typos! Foward should trigger spellcheck.
+  |                                                                      ^^^^^^
+  |

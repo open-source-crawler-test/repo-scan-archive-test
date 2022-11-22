@@ -1,0 +1,25 @@
+--- ./typos-report/typos.txt	original
++++ ./typos-report/typos.txt	fixed
+@@ -1 +1 @@
+-error: `Accesible` should be `Accessible`
++error: `Accessible` should be `Accessible`
+@@ -4 +4 @@
+-4 | Accesible this cow canot jupm over the moon becuase they have typos! Foward should trigger spellcheck.
++4 | Accessible this cow cannot jupm over the moon becuase they have typos! Forward should trigger spellcheck.
+@@ -7 +7 @@
+-error: `canot` should be `cannot`
++error: `cannot` should be `cannot`
+@@ -10 +10 @@
+-4 | Accesible this cow canot jupm over the moon becuase they have typos! Foward should trigger spellcheck.
++4 | Accessible this cow cannot jupm over the moon becuase they have typos! Forward should trigger spellcheck.
+@@ -13 +13 @@
+-error: `Foward` should be `Forward`
++error: `Forward` should be `Forward`
+@@ -16 +16 @@
+-4 | Accesible this cow canot jupm over the moon becuase they have typos! Foward should trigger spellcheck.
++4 | Accessible this cow cannot jupm over the moon becuase they have typos! Forward should trigger spellcheck.
+--- ./README.md	original
++++ ./README.md	fixed
+@@ -4 +4 @@
+-Accesible this cow canot jupm over the moon becuase they have typos! Foward should trigger spellcheck.
++Accessible this cow cannot jupm over the moon becuase they have typos! Forward should trigger spellcheck.
