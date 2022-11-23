@@ -1,0 +1,190 @@
+--- ./CHANGELOG.md	original
++++ ./CHANGELOG.md	fixed
+@@ -285 +285 @@
+-* Add utilty methods for creating a new parent & updating node to become sibling's child (Nivedita Chopra in 6f73657)
++* Add utility methods for creating a new parent & updating node to become sibling's child (Nivedita Chopra in 6f73657)
+@@ -452,33 +452,33 @@
+-* Fix bug in merge blocks (Nivedita Chopra in 7daa87e)
+-* Fix raw to tree conversion (Nivedita Chopra in 8ac1922)
+-* Bug Fix - Remove deleted block from its parent's children (Nivedita Chopra in 02e0e00)
+-* Fix small typo (#1865) (Valentin Hervieu in 8bb9c6c)
+-* Fix paste handling for images with `role="presentation"` (Jainil Parekh in 6df3808)
+-* Minor fix in entities docs (#1534) (Alastair Hole in 9f0d115)
+-* Fixes incorrect docs, see #1497 (#1837) (Matt Greenfield in a18b6fe)
+-* Fixes warning for missing keys in example color controls (#1853) (Claudio Procida in 4a5ad07)
+-* Fix Lint errors for type imports (Nivedita Chopra in e6c693c)
+-* Fix Travis breakage caused due to unimported `idx` module (Nivedita Chopra in 3306ddf)
+-* Fix `DraftTreeAdapter` to respect the tree invariants (Nivedita Chopra in 39be488)
+-* Inline call to `gkx` to combat fatal in `ContentState` (Steven Luscher in a6c9ffd)
+-* Handle ReactDOM type errors (Ashley Watkins in 9130859)
+-* Fix tree invariants test (#1836) (Nivedita Chopra in 05208a8)
+-* Fix unlucky failures in character replacement (Sophie Alpert in ae25b8f)
+-* Regression test for bug with nested block and deleting (Flarnie Marchan in 2d7ad18)
+-* Tree Data - Fix for backspace at the start of a nested block (Nivedita Chopra in cf48f77)
+-* Tree Data - Don't update pointers if range is within the same block (Nivedita Chopra in f3d3490)
+-* Fix Draft input cursor jumping to the end (Dan Abramov in 37dadd3)
+-* Fix tests to be independent on the implementation of invariant (Matthew McKeen in 81cc54b)
+-* Re-apply order-requires linter on html/shared/ (Dave Alongi in 0bb8d76)
+-* Auto-fix `prefer-const` ESLint rule (3/n) (Miorel Palii in bf1a028)
+-* Auto-fix all auto-fixable eqeqeq problems (Miorel Palii in eea70f4)
+-* Fixing Docusaurus migration issues (Noam Elboim in 72ad814)
+-* Fix block tree before/after comparison (Sophie Alpert in fa88ee1)
+-* Fixed license, Flow and lint issues in draft-js (Rubén Norte in 3e9ff8e)
+-* Actually for real fix the flow type of decorator props (Flarnie Marchan in 7e1a107)
+-* Workaround for BlockNode variance issue caused by flow transform (#1621) (Bob Ippolito in 1d77500)
+-* Revert "rename-unsafe-lifecycles" (mitermayer in 6eec8f9)
+-* Fix typo (Aditya Bhardwaj in 6ef6c66)
+-* Website: Fixed code highlight (Marcelo Jorge Vieira in 04c667c)
+-* Fixing tex example (Guilherme Miranda in 900ef76)
+-* Fix typo (Thomas Broadley in 35b3605)
++* Fix bug in merge blocks (Nivedita Chopra in 7data87e)
++* Fix raw to tree conversion (Nivedita Chopra in 8ac1922)
++* Bug Fix - Remove deleted block from its parent's children (Nivedita Chopra in 02e0e00)
++* Fix small typo (#1865) (Valentin Hervieu in 8bb9c6c)
++* Fix paste handling for images with `role="presentation"` (Jainil Parekh in 6df3808)
++* Minor fix in entities docs (#1534) (Alastair Hole in 9f0d115)
++* Fixes incorrect docs, see #1497 (#1837) (Matt Greenfield in a18b6fe)
++* Fixes warning for missing keys in example color controls (#1853) (Claudio Procida in 4a5ad07)
++* Fix Lint errors for type imports (Nivedita Chopra in e6c693c)
++* Fix Travis breakage caused due to unimported `idx` module (Nivedita Chopra in 3306ddf)
++* Fix `DraftTreeAdapter` to respect the tree invariants (Nivedita Chopra in 39be488)
++* Inline call to `gkx` to combat fatal in `ContentState` (Steven Luscher in a6c9ffd)
++* Handle ReactDOM type errors (Ashley Watkins in 9130859)
++* Fix tree invariants test (#1836) (Nivedita Chopra in 05208a8)
++* Fix unlucky failures in character replacement (Sophie Alpert in ae25b8f)
++* Regression test for bug with nested block and deleting (Flarnie Marchan in 2d7ad18)
++* Tree Data - Fix for backspace at the start of a nested block (Nivedita Chopra in cf48f77)
++* Tree Data - Don't update pointers if range is within the same block (Nivedita Chopra in f3d3490)
++* Fix Draft input cursor jumping to the end (Dan Abramov in 37dadd3)
++* Fix tests to be independent on the implementation of invariant (Matthew McKeen in 81cc54b)
++* Re-apply order-requires linter on html/shared/ (Dave Alongi in 0bb8d76)
++* Auto-fix `prefer-const` ESLint rule (3/n) (Miorel Palii in bf1a028)
++* Auto-fix all auto-fixable eqeqeq problems (Miorel Palii in eea70f4)
++* Fixing Docusaurus migration issues (Noam Elboim in 72ad814)
++* Fix block tree before/after comparison (Sophie Alpert in fa88ee1)
++* Fixed license, Flow and lint issues in draft-js (Rubén Norte in 3e9ff8e)
++* Actually for real fix the flow type of decorator props (Flarnie Marchan in 7e1a107)
++* Workaround for BlockNode variance issue caused by flow transform (#1621) (Bob Ippolito in 1d77500)
++* Revert "rename-unsafe-lifecycles" (mitermayer in 6eec8f9)
++* Fix typo (Aditya Bhardwaj in 6ef6c66)
++* Website: Fixed code highlight (Marcelo Jorge Vieira in 04c667c)
++* Fixing tex example (Guilherme Miranda in 900ef76)
++* Fix typo (Thomas Broadly in 35b3605)
+--- ./src/util/getOwnObjectValues.js	original
++++ ./src/util/getOwnObjectValues.js	fixed
+@@ -11 +11 @@
+- * protoype chain, too, use getObjectValuesIncludingPrototype.
++ * prototype chain, too, use getObjectValuesIncludingPrototype.
+--- ./src/model/immutable/__tests__/ContentBlockNode-test.js	original
++++ ./src/model/immutable/__tests__/ContentBlockNode-test.js	fixed
+@@ -22 +22 @@
+-const DEFAUL_BLOCK_CONFIG = {
++const DEFAULT_BLOCK_CONFIG = {
+@@ -37 +37 @@
+-    ...DEFAUL_BLOCK_CONFIG,
++    ...DEFAULT_BLOCK_CONFIG,
+--- ./src/model/immutable/ContentState.js	original
++++ ./src/model/immutable/ContentState.js	fixed
+@@ -68 +68 @@
+-/* $FlowFixMe[signature-verification-failure] Supressing a `signature-
++/* $FlowFixMe[signature-verification-failure] Suppressing a `signature-
+--- ./src/model/paste/__tests__/DraftPasteProcessor-test.js	original
++++ ./src/model/paste/__tests__/DraftPasteProcessor-test.js	fixed
+@@ -290 +290 @@
+-test('Should detect when somthing is un-styled in a child', () => {
++test('Should detect when something is un-styled in a child', () => {
+--- ./examples/draft-0-10-0/playground/README.md	original
++++ ./examples/draft-0-10-0/playground/README.md	fixed
+@@ -1393 +1393 @@
+-The default Jest coverage configuration can be overriden by adding any of the following supported keys to a Jest config in your package.json.
++The default Jest coverage configuration can be overridden by adding any of the following supported keys to a Jest config in your package.json.
+--- ./src/model/constants/DraftEditorCommand.js	original
++++ ./src/model/constants/DraftEditorCommand.js	fixed
+@@ -53 +53 @@
+-   * Toggle styles. Commands may be intepreted to modify inline text ranges
++   * Toggle styles. Commands may be interpreted to modify inline text ranges
+--- ./src/model/encoding/convertFromHTMLToContentBlocks.js	original
++++ ./src/model/encoding/convertFromHTMLToContentBlocks.js	fixed
+@@ -412 +412 @@
+-   * state to enable chaining sucessive calls.
++   * state to enable chaining successive calls.
+--- ./src/model/paste/__tests__/__snapshots__/DraftPasteProcessor-test.js.snap	original
++++ ./src/model/paste/__tests__/__snapshots__/DraftPasteProcessor-test.js.snap	fixed
+@@ -3 +3 @@
+-exports[`Should detect when somthing is un-styled in a child 1`] = `
++exports[`Should detect when something is un-styled in a child 1`] = `
+@@ -67 +67 @@
+-exports[`Should detect when somthing is un-styled in a child 2`] = `
++exports[`Should detect when something is un-styled in a child 2`] = `
+@@ -131 +131 @@
+-exports[`Should detect when somthing is un-styled in a child 3`] = `
++exports[`Should detect when something is un-styled in a child 3`] = `
+--- ./src/model/transaction/__tests__/ContentStateInlineStyle-test.js	original
++++ ./src/model/transaction/__tests__/ContentStateInlineStyle-test.js	fixed
+@@ -91 +91 @@
+-test('must add and remove styles accross multiple blocks', () => {
++test('must add and remove styles across multiple blocks', () => {
+--- ./src/model/transaction/__tests__/applyEntityToContentState-test.js	original
++++ ./src/model/transaction/__tests__/applyEntityToContentState-test.js	fixed
+@@ -59 +59 @@
+-test('must apply entity key accross multiple blocks', () => {
++test('must apply entity key across multiple blocks', () => {
+@@ -63 +63 @@
+-test('must apply null entity key accross multiple blocks', () => {
++test('must apply null entity key across multiple blocks', () => {
+--- ./src/model/transaction/__tests__/__snapshots__/applyEntityToContentState-test.js.snap	original
++++ ./src/model/transaction/__tests__/__snapshots__/applyEntityToContentState-test.js.snap	fixed
+@@ -168 +168 @@
+-exports[`must apply entity key accross multiple blocks 1`] = `
++exports[`must apply entity key across multiple blocks 1`] = `
+@@ -498 +498 @@
+-exports[`must apply null entity key accross multiple blocks 1`] = `
++exports[`must apply null entity key across multiple blocks 1`] = `
+--- ./src/model/transaction/removeRangeFromContentState.js	original
++++ ./src/model/transaction/removeRangeFromContentState.js	fixed
+@@ -92 +92 @@
+-    // we do not need to keep checking all root node siblings, just the first occurance
++    // we do not need to keep checking all root node siblings, just the first occurrence
+--- ./src/model/transaction/__tests__/__snapshots__/ContentStateInlineStyle-test.js.snap	original
++++ ./src/model/transaction/__tests__/__snapshots__/ContentStateInlineStyle-test.js.snap	fixed
+@@ -3 +3 @@
+-exports[`must add and remove styles accross multiple blocks 1`] = `
++exports[`must add and remove styles across multiple blocks 1`] = `
+@@ -178 +178 @@
+-exports[`must add and remove styles accross multiple blocks 2`] = `
++exports[`must add and remove styles across multiple blocks 2`] = `
+--- ./src/component/selection/setDraftEditorSelection.js	original
++++ ./src/component/selection/setDraftEditorSelection.js	fixed
+@@ -110 +110 @@
+- * to programatically create a backward selection. Thus, for all IE
++ * to programmatically create a backward selection. Thus, for all IE
+--- ./src/component/handlers/edit/commands/keyCommandUndo.js	original
++++ ./src/component/handlers/edit/commands/keyCommandUndo.js	fixed
+@@ -33 +33 @@
+-  // Otheriwse, manage the undo behavior manually.
++  // Otherwise, manage the undo behavior manually.
+--- ./src/component/contents/__tests__/DraftEditorContents.react-test.js	original
++++ ./src/component/contents/__tests__/DraftEditorContents.react-test.js	fixed
+@@ -84 +84 @@
+-  const editorInstace = block.getInstance();
++  const editorInstance = block.getInstance();
+@@ -87,2 +87,2 @@
+-    editorInstace.toggleCustomBlock(
+-      editorInstace.state.editorState,
++    editorInstance.toggleCustomBlock(
++      editorInstance.state.editorState,
+--- ./src/component/contents/exploration/DraftEditorBlockNode.react.js	original
++++ ./src/component/contents/exploration/DraftEditorBlockNode.react.js	fixed
+@@ -227 +227 @@
+-   * programatically creating these new blocks and setting the DOM selection
++   * programmatically creating these new blocks and setting the DOM selection
+--- ./src/component/utils/DraftDOMTypes.js	original
++++ ./src/component/utils/DraftDOMTypes.js	fixed
+@@ -4 +4 @@
+- * Types for things in the DOM used in Draft.js. These should eventaully be
++ * Types for things in the DOM used in Draft.js. These should eventually be
+--- ./meta/meeting-notes/2018-02-08-weekly-meeting.md	original
++++ ./meta/meeting-notes/2018-02-08-weekly-meeting.md	fixed
+@@ -49 +49 @@
+-                        * Long term tehy would like to see Draft.js be configurable, in terms of decreasing the bundle size. It's a hard thing to do.
++                        * Long term they would like to see Draft.js be configurable, in terms of decreasing the bundle size. It's a hard thing to do.

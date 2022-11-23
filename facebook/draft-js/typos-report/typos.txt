@@ -1,0 +1,228 @@
+error: `ba` should be `by`, `be`
+  --> ./CHANGELOG.md:112:45
+    |
+112 | * Add a preventScroll prop (Dan Abramov in 3ba907bb)
+    |                                             ^^
+    |
+error: `utilty` should be `utility`
+  --> ./CHANGELOG.md:285:7
+    |
+285 | * Add utilty methods for creating a new parent & updating node to become sibling's child (Nivedita Chopra in 6f73657)
+    |       ^^^^^^
+    |
+error: `ba` should be `by`, `be`
+  --> ./CHANGELOG.md:317:65
+    |
+317 | * Removes unnecessary eslint disable rules (Claudio Procida in 1ba0764)
+    |                                                                 ^^
+    |
+error: `ba` should be `by`, `be`
+  --> ./CHANGELOG.md:450:42
+    |
+450 | * fixes #868 (#1878) (Julian Krispel in 6ba124c)
+    |                                          ^^
+    |
+error: `daa` should be `data`
+  --> ./CHANGELOG.md:452:48
+    |
+452 | * Fix bug in merge blocks (Nivedita Chopra in 7daa87e)
+    |                                                ^^^
+    |
+error: `Broadley` should be `Broadly`
+  --> ./CHANGELOG.md:484:20
+    |
+484 | * Fix typo (Thomas Broadley in 35b3605)
+    |                    ^^^^^^^^
+    |
+error: `overriden` should be `overridden`
+  --> ./examples/draft-0-10-0/playground/README.md:1393:48
+     |
+1393 | The default Jest coverage configuration can be overriden by adding any of the following supported keys to a Jest config in your package.json.
+     |                                                ^^^^^^^^^
+     |
+error: `protoype` should be `prototype`
+  --> ./src/util/getOwnObjectValues.js:11:4
+   |
+11 |  * protoype chain, too, use getObjectValuesIncludingPrototype.
+   |    ^^^^^^^^
+   |
+error: `DEFAUL` should be `DEFAULT`
+  --> ./src/model/immutable/__tests__/ContentBlockNode-test.js:22:7
+   |
+22 | const DEFAUL_BLOCK_CONFIG = {
+   |       ^^^^^^
+   |
+error: `DEFAUL` should be `DEFAULT`
+  --> ./src/model/immutable/__tests__/ContentBlockNode-test.js:37:8
+   |
+37 |     ...DEFAUL_BLOCK_CONFIG,
+   |        ^^^^^^
+   |
+error: `Supressing` should be `Suppressing`
+  --> ./src/model/immutable/ContentState.js:68:47
+   |
+68 | /* $FlowFixMe[signature-verification-failure] Supressing a `signature-
+   |                                               ^^^^^^^^^^
+   |
+error: `somthing` should be `something`
+  --> ./src/model/paste/__tests__/DraftPasteProcessor-test.js:290:26
+    |
+290 | test('Should detect when somthing is un-styled in a child', () => {
+    |                          ^^^^^^^^
+    |
+error: `somthing` should be `something`
+  --> ./src/model/paste/__tests__/__snapshots__/DraftPasteProcessor-test.js.snap:3:29
+  |
+3 | exports[`Should detect when somthing is un-styled in a child 1`] = `
+  |                             ^^^^^^^^
+  |
+error: `somthing` should be `something`
+  --> ./src/model/paste/__tests__/__snapshots__/DraftPasteProcessor-test.js.snap:67:29
+   |
+67 | exports[`Should detect when somthing is un-styled in a child 2`] = `
+   |                             ^^^^^^^^
+   |
+error: `somthing` should be `something`
+  --> ./src/model/paste/__tests__/__snapshots__/DraftPasteProcessor-test.js.snap:131:29
+    |
+131 | exports[`Should detect when somthing is un-styled in a child 3`] = `
+    |                             ^^^^^^^^
+    |
+error: `intepreted` should be `interpreted`
+  --> ./src/model/constants/DraftEditorCommand.js:53:37
+   |
+53 |    * Toggle styles. Commands may be intepreted to modify inline text ranges
+   |                                     ^^^^^^^^^^
+   |
+error: `sucessive` should be `successive`
+  --> ./src/model/encoding/convertFromHTMLToContentBlocks.js:412:31
+    |
+412 |    * state to enable chaining sucessive calls.
+    |                               ^^^^^^^^^
+    |
+error: `seletion` should be `selection`, `deletion`
+  --> ./src/model/modifier/__tests__/AtomicBlockUtils-test.js:73:3
+   |
+73 |   seletion: $FlowFixMe,
+   |   ^^^^^^^^
+   |
+error: `seletion` should be `selection`, `deletion`
+  --> ./src/model/modifier/__tests__/AtomicBlockUtils-test.js:83:5
+   |
+83 |     seletion,
+   |     ^^^^^^^^
+   |
+error: `seletion` should be `selection`, `deletion`
+  --> ./src/model/modifier/__tests__/AtomicBlockUtils-test.js:95:59
+   |
+95 | test('must insert atomic at start of block with collapsed seletion', () => {
+   |                                                           ^^^^^^^^
+   |
+error: `seletion` should be `selection`, `deletion`
+  --> ./src/model/modifier/__tests__/__snapshots__/AtomicBlockUtils-test.js.snap:818:62
+    |
+818 | exports[`must insert atomic at start of block with collapsed seletion 1`] = `
+    |                                                              ^^^^^^^^
+    |
+error: `accross` should be `across`
+  --> ./src/model/transaction/__tests__/ContentStateInlineStyle-test.js:91:34
+   |
+91 | test('must add and remove styles accross multiple blocks', () => {
+   |                                  ^^^^^^^
+   |
+error: `accross` should be `across`
+  --> ./src/model/transaction/__tests__/applyEntityToContentState-test.js:59:29
+   |
+59 | test('must apply entity key accross multiple blocks', () => {
+   |                             ^^^^^^^
+   |
+error: `accross` should be `across`
+  --> ./src/model/transaction/__tests__/applyEntityToContentState-test.js:63:34
+   |
+63 | test('must apply null entity key accross multiple blocks', () => {
+   |                                  ^^^^^^^
+   |
+error: `accross` should be `across`
+  --> ./src/model/transaction/__tests__/__snapshots__/ContentStateInlineStyle-test.js.snap:3:37
+  |
+3 | exports[`must add and remove styles accross multiple blocks 1`] = `
+  |                                     ^^^^^^^
+  |
+error: `accross` should be `across`
+  --> ./src/model/transaction/__tests__/__snapshots__/ContentStateInlineStyle-test.js.snap:178:37
+    |
+178 | exports[`must add and remove styles accross multiple blocks 2`] = `
+    |                                     ^^^^^^^
+    |
+error: `accross` should be `across`
+  --> ./src/model/transaction/__tests__/__snapshots__/applyEntityToContentState-test.js.snap:168:32
+    |
+168 | exports[`must apply entity key accross multiple blocks 1`] = `
+    |                                ^^^^^^^
+    |
+error: `accross` should be `across`
+  --> ./src/model/transaction/__tests__/__snapshots__/applyEntityToContentState-test.js.snap:498:37
+    |
+498 | exports[`must apply null entity key accross multiple blocks 1`] = `
+    |                                     ^^^^^^^
+    |
+error: `occurance` should be `occurrence`
+  --> ./src/model/transaction/removeRangeFromContentState.js:92:79
+   |
+92 |     // we do not need to keep checking all root node siblings, just the first occurance
+   |                                                                               ^^^^^^^^^
+   |
+error: `programatically` should be `programmatically`
+  --> ./src/component/selection/setDraftEditorSelection.js:110:7
+    |
+110 |  * to programatically create a backward selection. Thus, for all IE
+    |       ^^^^^^^^^^^^^^^
+    |
+error: `Otheriwse` should be `Otherwise`
+  --> ./src/component/handlers/edit/commands/keyCommandUndo.js:33:6
+   |
+33 |   // Otheriwse, manage the undo behavior manually.
+   |      ^^^^^^^^^
+   |
+error: `Instace` should be `Instance`
+  --> ./src/component/contents/__tests__/DraftEditorContents.react-test.js:84:15
+   |
+84 |   const editorInstace = block.getInstance();
+   |               ^^^^^^^
+   |
+error: `Instace` should be `Instance`
+  --> ./src/component/contents/__tests__/DraftEditorContents.react-test.js:87:11
+   |
+87 |     editorInstace.toggleCustomBlock(
+   |           ^^^^^^^
+   |
+error: `Instace` should be `Instance`
+  --> ./src/component/contents/__tests__/DraftEditorContents.react-test.js:88:13
+   |
+88 |       editorInstace.state.editorState,
+   |             ^^^^^^^
+   |
+error: `programatically` should be `programmatically`
+  --> ./src/component/contents/exploration/DraftEditorBlockNode.react.js:227:6
+    |
+227 |    * programatically creating these new blocks and setting the DOM selection
+    |      ^^^^^^^^^^^^^^^
+    |
+error: `eventaully` should be `eventually`
+  --> ./src/component/utils/DraftDOMTypes.js:4:63
+  |
+4 |  * Types for things in the DOM used in Draft.js. These should eventaully be
+  |                                                               ^^^^^^^^^^
+  |
+error: `tehy` should be `they`
+  --> ./meta/meeting-notes/2018-02-08-weekly-meeting.md:49:37
+   |
+49 |                         * Long term tehy would like to see Draft.js be configurable, in terms of decreasing the bundle size. It's a hard thing to do.
+   |                                     ^^^^
+   |
+error: `converstion` should be `conversion`, `conversation`
+  --> ./meta/meeting-notes/2018-10-12-meeting.md:27:32
+   |
+27 |   * duplicate copy of the html converstion utility, we need to remove one.
+   |                                ^^^^^^^^^^^
+   |
