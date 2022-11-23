@@ -2,7 +2,7 @@
 
 **Repository:** [facebook/react](https://github.com/facebook/react)
 
-**Analysis Date:** Sat Nov 19 09:41:51 UTC 2022
+**Analysis Date:** Wed Nov 23 15:08:50 UTC 2022
 
-**Report size:** 64M	.
+**Report size:** 63M	.
 
